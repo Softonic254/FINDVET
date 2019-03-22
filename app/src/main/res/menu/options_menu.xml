@@ -9,13 +9,9 @@
 
     <item
         android:id="@+id/request"
-        android:title="My requests"
+        android:title="Make request"
         app:showAsAction="never"/>
 
-    <item
-        android:id="@+id/vetContact"
-        android:title="Contacts"
-        app:showAsAction="never"/>
 
     <item
         android:id="@+id/person"

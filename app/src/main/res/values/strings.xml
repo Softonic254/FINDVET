@@ -11,9 +11,8 @@
     <string name="next">next</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
     <string name="create">Create</string>
-    <string name="farmer_s_account_creation">Farmer\'s account creation</string>
+    <string name="farmer_s_account_creation">Farmer\'s signup</string>
     <string name="login">login</string>
-    <string name="create_account">Create account?</string>
     <string name="vet_login">Vet login</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm password</string>
@@ -36,7 +35,13 @@
         completions."
     </string>
     <string name="Notifications">Notifications</string>
-    <string name="singup">signup</string>
-    <string name="sign_up">Don\'t have any account sign up</string>
+    <string name="signup">Signup</string>
+    <string name="sign_up">Don\'t have any account? sign up</string>
     <string name="registration_number">Registration number</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="CreateAccount">Don\'t have an account? Signup</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make_a_request">Make a request</string>
 </resources>

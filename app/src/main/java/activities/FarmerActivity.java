@@ -1,36 +1,85 @@
-package com.example.user.locvet;
+package activities;
 
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.PagerAdapter;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.widget.Switch;
-import android.widget.Toolbar;
+import android.view.MenuItem;
+import android.widget.EditText;
+
+import com.example.user.locvet.R;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import adapters.ViewPagerAdapter;
+import fragments.InboxFragment;
+import fragments.NotificationFragment;
+import fragments.VetsFragment;
 
 public class FarmerActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
     TabLayout tab;
-    PagerAdapter pagerAdapter;
+    ViewPager farmerPager;
+    FirebaseAuth mAuth;
+    EditText contact, email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.farmeractivity);
+        mAuth = FirebaseAuth.getInstance();
 
+        contact = findViewById(R.id.phone);
+        email = findViewById(R.id.email);
         tab = findViewById(R.id.tab);
-        tab.addTab(tab.newTab().setText("Notifications"));
-        tab.addTab(tab.newTab().setText("Inbox"));
-        tab.addTab(tab.newTab().setText("Vets"));
+        farmerPager = findViewById(R.id.farmerpager);
 
+        List<Fragment> fragments = new ArrayList<>();
+        fragments.add(NotificationFragment.newInstance());
+        fragments.add(InboxFragment.newInstance());
+        fragments.add(VetsFragment.newInstance());
+
+        List<CharSequence> titles = new ArrayList<>();
+        titles.add("Notifications");
+        titles.add("Inbox");
+        titles.add("Vets");
+
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), fragments, titles);
+        farmerPager.setAdapter(viewPagerAdapter);
+        tab.setupWithViewPager(farmerPager);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.options_menu,menu);
+        inflater.inflate(R.menu.options_menu, menu);
         return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.profile:
+                // code
+                return true;
+            case R.id.request:
+                Intent intent = new Intent(FarmerActivity.this,requestActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.signout:
+                mAuth.signOut();
+                startActivity(new Intent(FarmerActivity.this, farmer_login.class));
+                ActivityCompat.finishAffinity(FarmerActivity.this);
+                return true;
+        }
+        return false;
+    }
+
 }

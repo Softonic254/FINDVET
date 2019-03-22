@@ -2,47 +2,45 @@ package fragments;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.user.locvet.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link VetsFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
+import adapters.VetsAdapter;
+import models.User;
+
 public class VetsFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private SwipeRefreshLayout refreshVets;
+    private RecyclerView listVets;
 
+    private FirebaseFirestore db;
+    private List<User> vets;
+    private VetsAdapter vetsAdapter;
 
     public VetsFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment VetsFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static VetsFragment newInstance(String param1, String param2) {
+    public static VetsFragment newInstance() {
         VetsFragment fragment = new VetsFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -51,16 +49,61 @@ public class VetsFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            db = FirebaseFirestore.getInstance();
+            vets = new ArrayList<>();
+            vetsAdapter = new VetsAdapter(getActivity(), vets);
         }
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vets, container, false);
+        View view = inflater.inflate(R.layout.fragment_vets, container, false);
+
+        refreshVets = view.findViewById(R.id.refreshVets);
+        listVets = view.findViewById(R.id.listVets);
+
+        refreshVets.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark, R.color.colorAccent);
+        refreshVets.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                fetchVets();
+            }
+        });
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        listVets.setLayoutManager(layoutManager);
+        listVets.setItemAnimator(new DefaultItemAnimator());
+        listVets.setAdapter(vetsAdapter);
+
+        fetchVets();
+
+        return view;
+    }
+
+    private void fetchVets() {
+        refreshVets.setRefreshing(true);
+        db.collection("vets")
+                .get()
+                .addOnCompleteListener(getActivity(), new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            int vetsSize = vets.size();
+                            vets.clear();
+                            vetsAdapter.notifyItemRangeRemoved(0, vetsSize);
+
+                            for (DocumentSnapshot document : task.getResult()) {
+                                User vet = document.toObject(User.class);
+                                vets.add(vet);
+                                vetsAdapter.notifyDataSetChanged();
+                            }
+                        }
+
+                        refreshVets.setRefreshing(false);
+                    }
+                });
     }
 
 }

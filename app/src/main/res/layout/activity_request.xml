@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".requestActivity">
+    android:orientation="vertical"
+    tools:context="activities.requestActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_photo_camera"
+            android:drawableLeft="@drawable/ic_photo_camera"
+            android:drawablePadding="16dp"
+            android:gravity="bottom"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+
+            android:hint="@string/make_a_request"
+            android:textColorHint="@color/colorPrimary" />
+    </LinearLayout>
+
+</LinearLayout>
