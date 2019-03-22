@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "487157833670",
+    "firebase_url": "https://locvet-95edd.firebaseio.com",
+    "project_id": "locvet-95edd",
+    "storage_bucket": "locvet-95edd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487157833670:android:6620dbf06484e2ad",
+        "android_client_info": {
+          "package_name": "com.example.user.locvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487157833670-4356pbcrh2f9h95uhsq8ei5a8cuervls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.locvet",
+            "certificate_hash": "4c68d09119936e9255b35dcce1799eb24e121bc2"
+          }
+        },
+        {
+          "client_id": "487157833670-nlioomvpakhtdrjfqtb6ui5agoie5674.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ugfuSloKwYfESd1tS1uPzOYCDjQYn9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487157833670-nlioomvpakhtdrjfqtb6ui5agoie5674.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
