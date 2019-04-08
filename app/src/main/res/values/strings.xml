@@ -44,4 +44,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="make_a_request">Make a request</string>
+    <string name="_11_40">11_40</string>
+    <string name="message">Message</string>
+    <string name="name">Name</string>
 </resources>
