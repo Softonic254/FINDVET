@@ -6,53 +6,94 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5df30fc1-2dfa-43a2-9cd9-231ea5966d73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocVet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LocVet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/CreateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/FarmerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/farmer_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/requestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/requestActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/vetLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/vetactivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetactivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/activities/vetsignup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetsignup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/adapters/VetsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/adapters/ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/ViewPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fragments/InboxFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fragments/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/NotificationFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fragments/VetsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/requestActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetactivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetactivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetsignup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetsignup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/ClientsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_lock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_lock.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/farmer_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/farmer_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/farmeractivity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/farmeractivity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_vets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_vets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_farmerinbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/vet_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vet_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/vetactivity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vetactivity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/vetsignup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vetsignup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-00-56-242.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-00-56-242.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-18-56-119.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-18-56-119.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-26-11-541.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-26-11-541.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-45-37-952.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-45-37-952.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-50-08-310.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-50-08-310.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-50-18-923.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-50-18-923.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-55-17-185.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-19-55-17-185.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-01-05-204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-01-05-204.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-14-41-426.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-14-41-426.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-19-02-934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-20-19-02-934.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-21-53-03-490.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-21-53-03-490.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-21-54-31-620.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-07-21-54-31-620.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-08-14-05-55-518.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-08-14-05-55-518.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-08-14-06-14-750.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-04-08-14-06-14-750.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/espresso/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -81,58 +122,85 @@
     <session id="-1295816386">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.159" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.229" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="3" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.57" value="2" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="12" />
+          <entry key="gradle" value="15" />
           <entry key="iml" value="4" />
-          <entry key="java" value="29" />
+          <entry key="java" value="391" />
           <entry key="json" value="1" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="13" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="12" />
+          <entry key="Groovy" value="15" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="29" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="391" />
           <entry key="JSON" value="1" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="13" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="16" />
           <entry key="gradle" value="2" />
           <entry key="iml" value="6" />
-          <entry key="java" value="648" />
+          <entry key="java" value="9627" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="245" />
+          <entry key="xml" value="2408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="648" />
+          <entry key="JAVA" value="9627" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="245" />
+          <entry key="XML" value="2408" />
         </counts>
       </usages-collector>
     </session>
@@ -141,92 +209,30 @@
     <favorites_list name="LocVet" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_message.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="e#316#554#0" />
-                <element signature="e#1188#1202#0" expanded="true" />
-                <element signature="e#1636#1653#0" expanded="true" />
-                <element signature="e#1909#1925#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="918">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="92" column="92" lean-forward="true" selection-start-line="92" selection-start-column="92" selection-end-line="92" selection-end-column="92" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2115#2324#0" expanded="true" />
-                <element signature="e#2323#2324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vet_chat.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/VetChatActivity.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/VetChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="1217">
+              <caret line="136" column="115" selection-start-line="136" selection-start-column="115" selection-end-line="136" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -238,6 +244,7 @@
       <list>
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -247,25 +254,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/adapters/VetsAdapter.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/LocVet.iml" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_rectangle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsInboxAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/VetChat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetLogin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/PasswordReset.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_password_reset.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vet_pass_reset.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/VetPassReset.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/vetactivity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_farmer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxFarmerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_farmerinbox.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/farmeractivity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/FarmerMessages.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFarmerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_lock.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/requestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/farmer_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/ClientsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_clients.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_request.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/request.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on_black_24dp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/vetsignup.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/create_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetsignup.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/popup_request.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/Request.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/requestlayout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/vet_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/ClientsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetactivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/Requests.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/RequestFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/RequestListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="195" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
@@ -287,12 +332,23 @@
             <path>
               <item name="LocVet" type="b2602c69:ProjectViewProjectNode" />
               <item name="LocVet" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LocVet" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -302,13 +358,44 @@
             </path>
             <path>
               <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="locvet" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="locvet" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="locvet" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="adapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="locvet" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LocVet" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -349,13 +436,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="location&#9;PSI&#9;JAVA://android.location.Location" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="0325301866001664" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ContactVet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android-Smart-Login-master" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1554655815342" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1555574927752" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -432,7 +520,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -508,10 +596,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Captures" order="0" sideWeight="0.50153846" side_tool="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49846154" visible="true" weight="0.21482602" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50153846" side_tool="true" weight="0.2647504" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32923076" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.66923076" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50075644" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924356" weight="0.52615386" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49924356" weight="0.3276923" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.7476923" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32923076" />
+      <window_info anchor="bottom" id="Debug" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.31089258" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" sideWeight="0.50153846" side_tool="true" weight="0.2647504" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49846154" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -523,269 +639,384 @@
       <window_info anchor="bottom" id="TODO" order="1" weight="0.3276923" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.66923076" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50075644" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924356" weight="0.49076924" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.3276923" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924356" weight="0.6707692" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49924356" weight="0.3276923" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.8030769" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32923076" />
-      <window_info anchor="bottom" id="TODO" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.66923076" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50075644" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924356" weight="0.49076924" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.3276923" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/farmer1.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/farmer_login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="340">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxFarmerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFarmerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="208">
+          <caret line="626" column="34" selection-start-line="626" selection-start-column="34" selection-end-line="626" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LocVet.iml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_icon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.iml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state relative-caret-position="952">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/request.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_request.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on_black_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_vets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/vetactivity.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/create_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/vetsignup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/ClientsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/requestlayout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/vet_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="109" column="32" lean-forward="true" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/popup_request.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_vet.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/Vets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetsignup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
+        <state relative-caret-position="112">
+          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/CreateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="190" column="60" selection-start-line="190" selection-start-column="60" selection-end-line="190" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rounded_rectangle.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="279">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsInboxAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-68" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/ViewPagerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/farmer_login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="38">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_clients.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_vets.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/ClientsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="123">
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_vet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="49" column="51" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="49" selection-end-column="51" />
-          <folding>
-            <element signature="e#484#722#0" />
-            <element signature="e#728#1933#0" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/VetsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_message.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#316#554#0" />
-            <element signature="e#1188#1202#0" expanded="true" />
-            <element signature="e#1636#1653#0" expanded="true" />
-            <element signature="e#1909#1925#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/User.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/vetactivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="86">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/VetChat.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_inbox.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vet_chat.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/VetChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/RequestFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/VetsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/models/Requests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/RequestListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="110" column="74" selection-start-line="110" selection-start-column="74" selection-end-line="110" selection-end-column="74" />
+          <folding>
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#2824#4099#0" expanded="true" />
+            <element signature="e#3331#4019#0" expanded="true" />
+            <element signature="e#4165#4536#0" expanded="true" />
+            <element signature="e#4761#5199#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#4535#4536#0" expanded="true" />
+            <element signature="e#4629#5000#0" expanded="true" />
+            <element signature="e#4999#5000#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4098#4099#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/adapters/InboxAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2115#2324#0" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="918">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/fragments/InboxFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="92" column="92" lean-forward="true" selection-start-line="92" selection-start-column="92" selection-end-line="92" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/locvet/activities/FarmerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="136" column="115" selection-start-line="136" selection-start-column="115" selection-end-line="136" selection-end-column="115" />
         </state>
       </provider>
     </entry>

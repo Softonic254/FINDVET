@@ -4,10 +4,10 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 import android.widget.Button;
@@ -21,11 +21,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import com.example.user.locvet.models.User;
-
 public class farmer_login extends AppCompatActivity {
 
-    Button login;
+    Button login,resetPassword;
     AppCompatTextView createAcc, vetlog;
     EditText email, password;
     private FirebaseAuth mAuth;
@@ -57,6 +55,7 @@ public class farmer_login extends AppCompatActivity {
         password = findViewById(R.id.password);
         createAcc = findViewById(R.id.createAccount);
         vetlog = findViewById(R.id.vetLogin);
+        resetPassword = findViewById(R.id.passreset);
 
         vetlog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +70,12 @@ public class farmer_login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(farmer_login.this, CreateActivity.class);
                 startActivity(intent);
+            }
+        });
+        resetPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(farmer_login.this,PasswordReset.class));
             }
         });
 

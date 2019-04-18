@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.user.locvet.activities.requestActivity">
+    android:gravity="bottom"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/camera"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_photo_camera" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/request"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-        android:gravity="bottom"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/send"
+        android:layout_toLeftOf="@+id/send"
+        android:layout_toEndOf="@+id/camera"
+        android:layout_toRightOf="@+id/camera"
+        android:fontFamily="sans-serif"
+        android:hint="@string/make_a_request"
+        android:paddingLeft="10dp"
+        android:singleLine="false" />
 
-        <EditText
-            android:id="@+id/request"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_photo_camera"
-            android:drawableLeft="@drawable/ic_photo_camera"
-            android:drawablePadding="16dp"
-            android:gravity="bottom"
-            android:fontFamily="sans-serif"
-            android:textSize="16sp"
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/send"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_send" />
 
-            android:hint="@string/make_a_request"
-            android:textColorHint="@color/colorPrimary" />
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

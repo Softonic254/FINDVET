@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.example.user.locvet.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -22,7 +21,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
-
 import com.example.user.locvet.models.User;
 
 public class CreateActivity extends AppCompatActivity {
@@ -59,6 +57,7 @@ public class CreateActivity extends AppCompatActivity {
     }
 
     private void initViews() {
+
         create = findViewById(R.id.createBtn);
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
@@ -112,9 +111,10 @@ public class CreateActivity extends AppCompatActivity {
 
                 String username = name.getText().toString().trim();
                 String useremail = email.getText().toString().trim();
-                String usercontact = contact.getText().toString().trim();
+                String usercontact = "07" + contact.getText().toString().trim();
                 String userpassword = password.getText().toString().trim();
                 String userconfirm = confirmPass.getText().toString().trim();
+
 
                 if (!username.isEmpty() &&
                         !useremail.isEmpty() &&
@@ -122,7 +122,7 @@ public class CreateActivity extends AppCompatActivity {
                         !userconfirm.isEmpty()) {
                     if (userpassword.equals(userconfirm)) {
                         if (userpassword.length() > 6) {
-                            signUp(new User(useremail, username, usercontact), userpassword);
+                            signUp(new User(username, useremail, usercontact), userpassword);
                         } else {
                             Toast.makeText(CreateActivity.this, "Password too short", Toast.LENGTH_SHORT).show();
                         }

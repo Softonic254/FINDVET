@@ -10,6 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_gravity="center_vertical"
         android:padding="16dp">
 
@@ -18,18 +20,18 @@
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/locvet2_2" />
+            android:src="@drawable/loginfarmer" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="serif"
-            android:text="@string/vet_login"
+            android:padding="10dp"
+            android:text="@string/vet_s_login"
             android:textAlignment="center"
             android:textColor="#090"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="24sp" />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -44,10 +46,11 @@
                 android:drawableLeft="@drawable/ic_email"
                 android:drawablePadding="8dp"
                 android:fontFamily="sans-serif"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:textColorHint="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:targetApi="lollipop" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -75,24 +78,26 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/loginVet"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:layout_marginLeft="100dp"
                 android:background="#080"
-                android:text="Login"
+                android:text="@string/login1"
                 android:textColor="#FFF" />
+
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/forgotpass"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/loginVet"
                 android:text="@string/forgot_password"
                 android:textAllCaps="false"
-                android:background="#FFF"
+                android:padding="10dp"
+                android:background="@color/cardview_light_background"
                 android:textColor="#000"
                 android:fontFamily="serif"
                 android:textSize="13sp"/>
@@ -108,7 +113,9 @@
             android:padding="20dp"
             android:text="@string/sign_up"
             android:textAllCaps="false"
-            android:textSize="16sp" />
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            tools:targetApi="jelly_bean" />
 
     </LinearLayout>
 

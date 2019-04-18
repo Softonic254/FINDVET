@@ -11,17 +11,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.user.locvet.R;
+import com.example.user.locvet.models.Vets;
 
 import java.util.List;
-
-import com.example.user.locvet.models.User;
 
 public class VetsAdapter extends RecyclerView.Adapter<VetsAdapter.VetViewHolder> {
 
     private Context mContext;
-    private List<User> vets;
+    private List<Vets> vets;
 
-    public VetsAdapter(Context mContext, List<User> vets) {
+    public VetsAdapter(Context mContext, List<Vets> vets) {
         this.mContext = mContext;
         this.vets = vets;
     }
@@ -57,17 +56,17 @@ public class VetsAdapter extends RecyclerView.Adapter<VetsAdapter.VetViewHolder>
         }
 
         public void bind(int position) {
-            final User vet = vets.get(position);
+            final Vets vet = vets.get(position);
 
             name.setText(vet.getName());
-            phone.setText(vet.getContact());
+            phone.setText("07"+ vet.getContact());
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     new AlertDialog.Builder(mContext)
                             .setTitle("Vet details")
-                            .setMessage(vet.toString())
+                            .setMessage(vet.getName()+"\n\n07" +vet.getContact() +"\n\n"+ vet.getEmail())
                             .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {

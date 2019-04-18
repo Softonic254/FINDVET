@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 
 import com.example.user.locvet.R;
 import com.example.user.locvet.adapters.VetsAdapter;
+import com.example.user.locvet.models.Vets;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -23,15 +24,11 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.user.locvet.models.User;
-
 public class VetsFragment extends Fragment {
 
     private SwipeRefreshLayout refreshVets;
-    private RecyclerView listVets;
-
     private FirebaseFirestore db;
-    private List<User> vets;
+    private List<Vets> vets;
     private VetsAdapter vetsAdapter;
 
     public VetsFragment() {
@@ -62,9 +59,9 @@ public class VetsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_vets, container, false);
 
         refreshVets = view.findViewById(R.id.refreshVets);
-        listVets = view.findViewById(R.id.listVets);
+        RecyclerView listVets = view.findViewById(R.id.listVets);
 
-        refreshVets.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark, R.color.colorAccent);
+        refreshVets.setColorSchemeResources(R.color.colorPrimary, R.color.colorAccent, R.color.colorPrimaryDark);
         refreshVets.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -95,7 +92,7 @@ public class VetsFragment extends Fragment {
                             vetsAdapter.notifyItemRangeRemoved(0, vetsSize);
 
                             for (DocumentSnapshot document : task.getResult()) {
-                                User vet = document.toObject(User.class);
+                                Vets vet = document.toObject(Vets.class);
                                 vets.add(vet);
                                 vetsAdapter.notifyDataSetChanged();
                             }

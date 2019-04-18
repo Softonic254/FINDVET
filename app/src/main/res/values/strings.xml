@@ -2,7 +2,6 @@
     <string name="app_name">FindVet</string>
     <string name="username">Username</string>
     <string name="don_t_have_an_account_signup">Don\'t have an account? Signup</string>
-    <string name="message">Message</string>
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
     <string name="send">Send</string>
@@ -13,7 +12,6 @@
     <string name="create">Create</string>
     <string name="farmer_s_account_creation">Farmer\'s signup</string>
     <string name="login">login</string>
-    <string name="vet_login">Vet login</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm password</string>
     <string name="farmer_s_login">Farmer\'s login</string>
@@ -47,4 +45,16 @@
     <string name="_11_40">11_40</string>
     <string name="message">Message</string>
     <string name="name">Name</string>
+    <string name="enter_your_email_address_in_the_field_below_and_click_the_button_below_it_to_reset_your_password">Enter your email address in the field below and click the button below it to reset your password.</string>
+    <string name="reset_password">Reset password</string>
+    <string name="profile">Profile</string>
+    <string name="hello_there">Hello_there</string>
+    <string name="hey_there">Hey there</string>
+    <string name="login1">Login</string>
+    <string name="make_your_request">Make your request</string>
+    <string name="vet_s_login">Vet\'s login</string>
+    <string name="vet_signup">Vet signup</string>
+    <string name="signout">Signout</string>
+    <string name="make_request">Make request</string>
+    <string name="my_requests">My requests</string>
 </resources>

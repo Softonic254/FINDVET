@@ -15,8 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.VetChatActivity"></activity>
-        <activity android:name=".activities.requestActivity" />
+        <activity android:name=".activities.Request"></activity>
+        <activity android:name=".activities.VetPassReset" />
+        <activity android:name=".activities.PasswordReset" />
+        <activity android:name=".activities.VetChatActivity" />
         <activity android:name=".activities.farmer_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

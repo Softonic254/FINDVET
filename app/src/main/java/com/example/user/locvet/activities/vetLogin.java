@@ -24,7 +24,7 @@ public class vetLogin extends AppCompatActivity {
 
     EditText vetemail, vetpassword;
     AppCompatTextView vetsignup;
-    AppCompatButton vetlogin;
+    AppCompatButton vetlogin,reset;
     private FirebaseAuth mAuth;
 
     @Override
@@ -43,12 +43,20 @@ public class vetLogin extends AppCompatActivity {
         vetpassword = findViewById(R.id.passwordvet);
         vetsignup = findViewById(R.id.createVet);
         vetlogin = findViewById(R.id.loginVet);
+        reset = findViewById(R.id.forgotpass);
 
         vetsignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(vetLogin.this, vetsignup.class);
                 startActivity(intent);
+            }
+        });
+
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(vetLogin.this,VetPassReset.class));
             }
         });
 
